@@ -3,6 +3,7 @@ from playback import SpaceToDots
 from faces import convert
 import emoji
 from einstein import massToJoules
+from tipcalculator import dollars_to_float, percent_to_float, main
 
 #input_outdoor_words = input("Type in your outdoor words: ") #Inddor Voice Test
 #print (UpperToLower(input_outdoor_words))
@@ -13,5 +14,8 @@ from einstein import massToJoules
 #input_no_emojies = input("type in your message with smileies: ") #Making Faces Test
 #print (convert(input_no_emojies))
 
-input_number = int(input("m: "))
-print (massToJoules(input_number))
+#input_number = int(input("m: "))
+#print (massToJoules(input_number))
+
+#main()
+
